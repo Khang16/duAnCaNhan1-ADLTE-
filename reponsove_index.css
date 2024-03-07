@@ -1,0 +1,97 @@
+@media only screen and (max-width: 600px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .navigation {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 3%;
+    }
+
+    .navigation a {
+        flex: 1;
+        text-align: center;
+    }
+
+    .parse1_gioiThieu {
+        img {
+            padding: 0;
+        }
+    }
+
+    .logo_item {
+        img {
+            width: 80%;
+            margin: 1rem;
+        }
+    }
+
+    footer {
+        padding: 2rem;
+    }
+
+    .parse_4 {
+        padding: 0;
+
+        .content_parse_4 {
+            width: 100%;
+
+            .icon_rate {
+
+                display: grid;
+                grid-template-columns: auto;
+                justify-content: center;
+            }
+
+        }
+
+        img {
+            height: auto;
+            width: auto;
+        }
+
+        h1 {
+            justify-content: center;
+            text-align: center;
+
+        }
+
+        p {
+            text-align: center;
+        }
+    }
+
+    .parse_5 {
+        .txt_parse_5 {
+            height: max-content;
+            width: auto;
+            background-image: url(https://adminlte.io/wp-content/uploads/2021/04/support-bg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: top center;
+            padding: 3rem 2rem;
+            border-radius: 1rem;
+
+            .total_txt {
+                display: block;
+
+                .txt_left_p5 {
+                    text-align: center;
+                    padding: 0;
+
+                }
+
+                .txt_right_p5 {
+                    text-align: center;
+                    padding: 0;
+                }
+                .contact_p5{
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}
